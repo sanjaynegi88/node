@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     if(req.url == "/about"){
     res.end('Welcome to our page');
     }else{
-    res.end('Hello World from Node.js Docker');
+    res.end('Node Application is Running Perfectly Here');
     }
 });
 
