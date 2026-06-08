@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     if(req.url == "/about"){
     res.end('Welcome to our page');
     }else{
-    res.end('Pipeline Successfully Added Now we can begin the development');
+    res.end('Testing Pipeline Test 1');
     }
 });
 
